@@ -35,7 +35,7 @@ if(seconds === 0){
 if(minutes === 0){
 
 alarm.currentTime = 0;
-alarm.play().catch(() => {});
+alarm.play().catch(()=>{});
 
 if(!isBreak){
 
@@ -96,7 +96,13 @@ isBreak = false;
 modeText.textContent = "Study Mode";
 progress.style.width = "0%";
 
+stopAlarm();
 updateDisplay();
+}
+
+function stopAlarm(){
+alarm.pause();
+alarm.currentTime = 0;
 }
 
 function toggleDarkMode(){
