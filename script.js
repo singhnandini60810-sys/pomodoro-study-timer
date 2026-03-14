@@ -34,7 +34,8 @@ if(seconds === 0){
 
 if(minutes === 0){
 
-alarm.play();
+alarm.currentTime = 0;
+alarm.play().catch(() => {});
 
 if(!isBreak){
 
