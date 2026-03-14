@@ -21,6 +21,11 @@ box-shadow:0 5px 15px rgba(0,0,0,0.2);
 margin-bottom:15px;
 }
 
+.settings label{
+display:block;
+margin-top:5px;
+}
+
 .settings input{
 width:80px;
 padding:5px;
