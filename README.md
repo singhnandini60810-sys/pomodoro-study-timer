@@ -1,5 +1,5 @@
 # Pomodoro Study Timer
-
+https://singhnandini60810-sys.github.io/pomodoro-study-timer/
 A simple Pomodoro study timer built using HTML, CSS and JavaScript.
 
 ## Features
